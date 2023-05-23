@@ -32,3 +32,4 @@
 - L23 & 24: double parenthèse inutile
 - L25: sous fonction inutile
 - L33: fonction non utilisée
+- L45: dans System.out.println prévilégier String.format 
