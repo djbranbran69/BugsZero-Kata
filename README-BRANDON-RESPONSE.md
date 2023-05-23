@@ -32,4 +32,13 @@
 - L23 & 24: double parenthèse inutile
 - L25: sous fonction inutile
 - L33: fonction non utilisée
-- L45: dans System.out.println prévilégier String.format 
+- L45: dans System.out.println prévilégier String.format , faire un tour sur toute la page
+- L78: préférable d'utiliser les accolades pour une condition
+- L87: utiliser un switch case (avec java 17 c'est plus sympa)
+- L99: un switch case c'est mieux
+==> switch (places[currentPlayer]){
+case 0, 4, 8 => return "Pop";
+case ...
+}
+
+- L 124 : faire directement un return de didPlayerWin(); sans passer par une variable
